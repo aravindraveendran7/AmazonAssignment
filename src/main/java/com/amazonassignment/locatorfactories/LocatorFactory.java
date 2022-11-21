@@ -1,7 +1,6 @@
-package com.amazonassignment.locatorFactories;
+package com.amazonassignment.locatorfactories;
 
 import org.openqa.selenium.By;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;

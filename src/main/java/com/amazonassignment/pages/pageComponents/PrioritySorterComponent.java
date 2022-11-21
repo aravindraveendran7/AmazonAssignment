@@ -1,15 +1,9 @@
 package com.amazonassignment.pages.pageComponents;
 
-import com.amazonassignment.driver.DriverManager;
-import com.amazonassignment.locatorFactories.LocatorFactory;
+import com.amazonassignment.locatorfactories.LocatorFactory;
 import com.amazonassignment.utils.SeleniumUtils;
 import lombok.SneakyThrows;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import static org.assertj.core.api.Assertions.*;
-
-
-import java.util.List;
 
 public final class PrioritySorterComponent {
 

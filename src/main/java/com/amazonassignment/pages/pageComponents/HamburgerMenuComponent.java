@@ -1,6 +1,6 @@
 package com.amazonassignment.pages.pageComponents;
 
-import com.amazonassignment.locatorFactories.LocatorFactory;
+import com.amazonassignment.locatorfactories.LocatorFactory;
 import com.amazonassignment.pages.ProductListingPage;
 import com.amazonassignment.utils.SeleniumUtils;
 

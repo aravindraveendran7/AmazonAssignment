@@ -1,7 +1,7 @@
 package com.amazonassignment.pages;
 
 import com.amazonassignment.driver.DriverManager;
-import com.amazonassignment.locatorFactories.LocatorFactory;
+import com.amazonassignment.locatorfactories.LocatorFactory;
 import com.amazonassignment.pages.pageComponents.PrioritySorterComponent;
 import com.amazonassignment.utils.SeleniumUtils;
 import org.openqa.selenium.By;
