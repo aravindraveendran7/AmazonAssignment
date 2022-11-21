@@ -55,6 +55,23 @@ Prerequisites: Java 8+ , Maven 3.6.3 Installed and path set
 
 **Note:** User should not try to run the test from test class - Might end up in Null Poinet Exceptions,because the listeners are configured only in testng.xml
 
+#Report Interpretation
+------------
+1.Dashboard view clearly indicates the start time, end time of the run, number of tests passed and failed. It also shows the time took for the individual tests in form of timeline. Hover the mouse over the timeline to get the exact time details.
+![](readmeimages/Dashboard.png)
+
+2.Tags tab in the Dashboard view clearly indicates the pass and fail according to the functionality.
+
+3.Click on each test tab to view the corresponding test log events.
+
+4.All the web tests will have a screenshot attached on failure as well as pass
+
+5.After each test run, reports can be found under root directory and ExtentReports folder.
+![](readmeimages/Tests.png)
+
+#Notes:
+
+1.Base image used in the dockerfile is customised from maven:3.8.6-openjdk-18 where the maven dependencies are downloaded and kept handy to avoid downloading maven dependencies during each run.
 
 
 
