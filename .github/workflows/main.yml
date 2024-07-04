@@ -1,0 +1,13 @@
+name: run-on-demand
+
+on: 
+  workflow_dispatch:
+    inputs:
+      mavenprofile:
+        description: maven profile select your choice
+        options:
+          - web
+        required: true
+        type: choice
+        default: web
+      
