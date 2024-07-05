@@ -19,6 +19,7 @@ jobs:
           os: [ubuntu-latest]
       steps:
         - run: echo ${{github.actor}}
+        - run: echo ${{runner.os}}
         
         
            
