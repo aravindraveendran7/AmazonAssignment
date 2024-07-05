@@ -18,8 +18,9 @@ jobs:
         matrix:
           os: [ubuntu-latest]
       steps:
-            - run: echo ${{inputs.text}}
-            - run: echo ${{github.actor}}
+        - run: echo ${{github.actor}}
+        
+        
            
     
      
